@@ -1,0 +1,19 @@
+node_modules
+.env
+.env.local
+coverage
+frontend/dist
+backend/dist
+*.log
+.DS_Store
+
+build-*.txt
+
+*-build*.txt
+
+# Generated test/debug files
+backend/*-results.json
+backend/out.txt
+backend/debug-product.ts
+frontend/*.tsbuildinfo
+frontend/vite.config.d.ts
